@@ -18,6 +18,7 @@ body {
     margin: 10px auto;
     width: 95%;
     backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, 0.2); 
 }
 
 .logo {
@@ -74,5 +75,15 @@ body {
 
     .menu.show {
         display: flex;
+    }
+
+    .logo {
+        position: absolute;
+        text-align: right;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        right:65%;
+        transform: translate(-50%);
     }
 }
