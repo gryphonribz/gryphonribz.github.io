@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
+
+/* Tailwind CSS code for a modern, beautiful about me webpage */
+
+/* Container for the whole page */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Main section with cards */
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 40px;
+}
+
+/* Card component */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.card p {
+  font-size: 1.2rem;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+/* Vector icons */
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  fill: #ff9a9e;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .card img {
+    height: 150px;
+  }
+}
