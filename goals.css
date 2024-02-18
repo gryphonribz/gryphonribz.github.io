@@ -11,6 +11,17 @@ body {
     margin-top: 20px;
 }
 
+.subtitle {
+    text-align: center;
+    color: #FFFFFF; 
+    margin-top: 40px;
+}
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -41,15 +52,16 @@ body {
     width: 80px;
     height: 80px;
     margin-bottom: 5px;
+    border-radius: 50%;
 }
 
 .language-name {
     color: #E6E6E6; 
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 50px;
 }
 
 .language-name:hover {
