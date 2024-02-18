@@ -1,0 +1,72 @@
+.social-card {
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Reduced padding */
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent white background color */
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Same shadow effect */
+    margin-bottom: 15px; /* Same margin */
+    transition: transform 0.3s; /* Same transition effect */
+    width: 200px; /* Fixed width */
+    border: 2px solid rgba(255, 255, 255, 0.4); /* Added stroke border */
+    backdrop-filter: blur(10px); /* Added blur effect */
+}
+
+/* Card hover effect */
+.social-card:hover {
+    transform: scale(1.05); /* Same hover effect */
+}
+
+/* Logo styles */
+.social-card img {
+    width: 40px; /* Same logo size */
+    height: 40px; /* Same logo size */
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+/* Social media name styles */
+.social-name {
+    font-size: 18px; /* Same font size */
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-family: 'Outfit', sans-serif; /* Added font family */
+}
+
+/* Body background color */
+body {
+    background-color: #131417; /* Dark gray background color */
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Card spacing styles */
+.social-card:not(:last-child) {
+    margin-right: 15px; /* Added right margin for all cards except the last one in each row */
+}
+
+/* Text styles */
+.text {
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+    text-align: center;
+    color: #fff; /* White text color */
+    font-family: 'Outfit', sans-serif; /* Added font family */
+    margin-bottom: 15px; /* Added bottom margin */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .social-card {
+        width: 100%; /* Full width on mobile */
+    }
+}
