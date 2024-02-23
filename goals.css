@@ -1,5 +1,6 @@
 body {
     background-image: url('https://i.postimg.cc/0rgMw4pG/pexels-akshar-dave-594233.jpg');
+    background-size: cover;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
