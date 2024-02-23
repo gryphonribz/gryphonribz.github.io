@@ -1,5 +1,5 @@
 body {
-    background-color: #131417;
+    background-image: url('');
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ body {
 .card {
     width: 170px;
     height: 247px;
-    background-color: #2C303A;
+    background-color: rgba(255, 255, 255, 0.25); 
     border-radius: 10px;
     margin: 10px;
     display: flex;
@@ -41,8 +41,12 @@ body {
     align-items: center;
     animation: slideIn 0.5s ease forwards;
     opacity: 0;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(50px); 
+    -webkit-backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, 0.18); 
 }
+
 
 .card:hover {
     background-color: #37404C; 
@@ -52,7 +56,6 @@ body {
     width: 80px;
     height: 80px;
     margin-bottom: 5px;
-    border-radius: 50%;
 }
 
 .language-name {
