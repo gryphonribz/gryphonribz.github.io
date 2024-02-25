@@ -28,6 +28,14 @@ body {
     margin-right: auto; /* Ensures the logo is aligned to the left in mobile view */
 }
 
+.logo .gryphon {
+    color: #336699; /* Adjust the color to match with Gryphon */
+}
+
+.logo .ribz {
+    color: red; /* Set Ribz to red */
+}
+
 .menu {
     display: flex;
     gap: 25px;
